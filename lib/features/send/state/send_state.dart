@@ -1,6 +1,6 @@
 import 'dart:convert';
 
-import 'package:flutter_sharez/data/model/server_info.dart';
+import 'package:file_sharing/data/model/server_info.dart';
 
 sealed class SendState {
   const SendState();

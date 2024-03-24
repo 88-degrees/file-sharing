@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_sharez/data/model/server_info.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/helper/global_helper.dart';
+import 'package:file_sharing/data/model/server_info.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/helper/global_helper.dart';
 import 'package:qr_flutter/qr_flutter.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 class ShareOnWebSheet extends StatefulWidget {
   final ServerInfo serverInfo;

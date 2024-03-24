@@ -1,5 +1,5 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/features/counter/counter.dart';
+import 'package:file_sharing/features/counter/counter.dart';
 
 /// This notifier class used to build intial value
 /// from intial counter value which can be overriden.

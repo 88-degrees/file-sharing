@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/local_storage/app_storage_pod.dart';
+import 'package:file_sharing/core/local_storage/app_storage_pod.dart';
 
 ///This provider stores the ThemeModeController
 final themecontrollerProvider =

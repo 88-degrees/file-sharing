@@ -1,7 +1,7 @@
 import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 /// This one is extension `when` extension on AsyncValue
 /// with some default loading,error widget and

@@ -3,14 +3,14 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:flutter_sharez/core/local_storage/app_storage_pod.dart';
-import 'package:flutter_sharez/core/theme/app_theme.dart';
-import 'package:flutter_sharez/core/theme/theme_controller.dart';
-import 'package:flutter_sharez/features/counter/counter.dart';
-import 'package:flutter_sharez/features/theme_segmented_btn/controller/selection_theme_pod.dart';
-import 'package:flutter_sharez/features/theme_segmented_btn/view/theme_segmented_btn.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/pods/internet_checker_pod.dart';
+import 'package:file_sharing/core/local_storage/app_storage_pod.dart';
+import 'package:file_sharing/core/theme/app_theme.dart';
+import 'package:file_sharing/core/theme/theme_controller.dart';
+import 'package:file_sharing/features/counter/counter.dart';
+import 'package:file_sharing/features/theme_segmented_btn/controller/selection_theme_pod.dart';
+import 'package:file_sharing/features/theme_segmented_btn/view/theme_segmented_btn.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/pods/internet_checker_pod.dart';
 
 import '../../../helpers/helpers.dart';
 

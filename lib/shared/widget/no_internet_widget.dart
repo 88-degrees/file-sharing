@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
-import 'package:flutter_sharez/shared/api_client/dio/dio_client_provider.dart';
-import 'package:flutter_sharez/shared/pods/internet_checker_pod.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/shared/api_client/dio/dio_client_provider.dart';
+import 'package:file_sharing/shared/pods/internet_checker_pod.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 ///No internet extension widget
 extension NoInternet on Widget {

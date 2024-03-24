@@ -1,7 +1,7 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/bootstrap.dart';
-import 'package:flutter_sharez/data/model/file_select_model.dart';
+import 'package:file_sharing/bootstrap.dart';
+import 'package:file_sharing/data/model/file_select_model.dart';
 import 'package:platform_info/platform_info.dart';
 import 'package:permission_handler/permission_handler.dart';
 

@@ -1,10 +1,10 @@
 import 'dart:io';
 
 import 'package:dio/dio.dart';
-import 'package:flutter_sharez/data/model/check_server_model.dart';
-import 'package:flutter_sharez/data/model/file_paths_model.dart';
-import 'package:flutter_sharez/data/model/receiver_model.dart';
-import 'package:flutter_sharez/shared/exception/base_exception.dart';
+import 'package:file_sharing/data/model/check_server_model.dart';
+import 'package:file_sharing/data/model/file_paths_model.dart';
+import 'package:file_sharing/data/model/receiver_model.dart';
+import 'package:file_sharing/shared/exception/base_exception.dart';
 import 'package:multiple_result/multiple_result.dart';
 
 class ReceiverService {

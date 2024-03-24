@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_sharez/features/counter/counter.dart';
+import 'package:file_sharing/features/counter/counter.dart';
 import 'package:riverpod_test/riverpod_test.dart';
 
 abstract class MyAbstract {}

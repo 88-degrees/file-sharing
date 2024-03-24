@@ -3,9 +3,9 @@ import 'dart:convert';
 import 'dart:io';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/bootstrap.dart';
-import 'package:flutter_sharez/data/model/file_paths_model.dart';
-import 'package:flutter_sharez/features/file_download_btn/state/file_download_state.dart';
+import 'package:file_sharing/bootstrap.dart';
+import 'package:file_sharing/data/model/file_paths_model.dart';
+import 'package:file_sharing/features/file_download_btn/state/file_download_state.dart';
 
 import 'package:hyper_thread_downloader/hyper_thread_downloader.dart';
 

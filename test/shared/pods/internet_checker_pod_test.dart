@@ -2,7 +2,7 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:internet_connection_checker_plus/internet_connection_checker_plus.dart';
 
-import 'package:flutter_sharez/shared/pods/internet_checker_pod.dart';
+import 'package:file_sharing/shared/pods/internet_checker_pod.dart';
 
 void main() {
   TestWidgetsFlutterBinding.ensureInitialized();

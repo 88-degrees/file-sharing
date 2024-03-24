@@ -2,12 +2,12 @@ import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/bootstrap.dart';
-import 'package:flutter_sharez/data/model/update_model.dart';
-import 'package:flutter_sharez/features/update_app_version/controller/get_changelog_pod.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/asynvalue_easy_when.dart';
+import 'package:file_sharing/bootstrap.dart';
+import 'package:file_sharing/data/model/update_model.dart';
+import 'package:file_sharing/features/update_app_version/controller/get_changelog_pod.dart';
+import 'package:file_sharing/shared/riverpod_ext/asynvalue_easy_when.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 @RoutePage(
   deferredLoading: true,

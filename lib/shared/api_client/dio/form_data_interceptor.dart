@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_sharez/bootstrap.dart';
+import 'package:file_sharing/bootstrap.dart';
 
 // coverage:ignore-file
 

@@ -1,10 +1,10 @@
 import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
-import 'package:velocity_x/velocity_x.dart';
-import 'package:flutter_sharez/features/settings/view/widget/about_app_tile.dart';
-import 'package:flutter_sharez/features/theme_segmented_btn/view/theme_segmented_btn.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/widget/app_locale_popup.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
+import 'package:file_sharing/features/settings/view/widget/about_app_tile.dart';
+import 'package:file_sharing/features/theme_segmented_btn/view/theme_segmented_btn.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/widget/app_locale_popup.dart';
 
 @RoutePage(
   deferredLoading: true,

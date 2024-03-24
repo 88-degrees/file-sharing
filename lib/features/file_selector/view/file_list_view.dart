@@ -1,9 +1,9 @@
 import 'package:file_sizes/file_sizes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/data/model/file_select_model.dart';
-import 'package:flutter_sharez/features/file_selector/controller/selected_files_list_pod.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/data/model/file_select_model.dart';
+import 'package:file_sharing/features/file_selector/controller/selected_files_list_pod.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 class FileListView extends StatelessWidget {
   final List<FileSelectModel> files;

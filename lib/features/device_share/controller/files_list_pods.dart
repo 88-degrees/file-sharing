@@ -1,8 +1,8 @@
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/data/model/file_paths_model.dart';
-import 'package:flutter_sharez/data/model/sender_model.dart';
-import 'package:flutter_sharez/data/service/receiver/receiver_service_pod.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/cancel_extensions.dart';
+import 'package:file_sharing/data/model/file_paths_model.dart';
+import 'package:file_sharing/data/model/sender_model.dart';
+import 'package:file_sharing/data/service/receiver/receiver_service_pod.dart';
+import 'package:file_sharing/shared/riverpod_ext/cancel_extensions.dart';
 
 final senderfileListPod = FutureProvider.autoDispose
     .family<FilePathsModel, SenderModel>((ref, sendermodel) async {

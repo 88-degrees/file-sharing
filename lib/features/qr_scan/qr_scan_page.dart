@@ -2,10 +2,10 @@ import 'package:ai_barcode_scanner/ai_barcode_scanner.dart';
 import 'package:auto_route/auto_route.dart';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sharez/bootstrap.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
+import 'package:file_sharing/bootstrap.dart';
+import 'package:file_sharing/l10n/l10n.dart';
 import 'package:platform_info/platform_info.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 @RoutePage(
   deferredLoading: true,

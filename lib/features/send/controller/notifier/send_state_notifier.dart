@@ -1,11 +1,11 @@
 import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/router/router.gr.dart';
-import 'package:flutter_sharez/core/router/router_pod.dart';
-import 'package:flutter_sharez/data/service/sender/sender_service_pod.dart';
-import 'package:flutter_sharez/features/file_selector/controller/selected_files_list_pod.dart';
-import 'package:flutter_sharez/features/send/state/send_state.dart';
+import 'package:file_sharing/core/router/router.gr.dart';
+import 'package:file_sharing/core/router/router_pod.dart';
+import 'package:file_sharing/data/service/sender/sender_service_pod.dart';
+import 'package:file_sharing/features/file_selector/controller/selected_files_list_pod.dart';
+import 'package:file_sharing/features/send/state/send_state.dart';
 
 class SendStateNotifier extends AutoDisposeAsyncNotifier<SendState> {
   @override

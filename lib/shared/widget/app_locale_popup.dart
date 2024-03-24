@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/pods/locale_pod.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/pods/locale_pod.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 ///This widget can be used to change the local in a popup
 class AppLocalePopUp extends ConsumerWidget {

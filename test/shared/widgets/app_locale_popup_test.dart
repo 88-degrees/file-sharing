@@ -4,9 +4,9 @@ import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:flutter_sharez/core/local_storage/app_storage_pod.dart';
-import 'package:flutter_sharez/shared/pods/internet_checker_pod.dart';
-import 'package:flutter_sharez/shared/widget/app_locale_popup.dart';
+import 'package:file_sharing/core/local_storage/app_storage_pod.dart';
+import 'package:file_sharing/shared/pods/internet_checker_pod.dart';
+import 'package:file_sharing/shared/widget/app_locale_popup.dart';
 
 import '../../helpers/pump_app.dart';
 

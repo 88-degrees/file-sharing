@@ -1,10 +1,10 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/router/router.gr.dart';
-import 'package:flutter_sharez/core/router/router_pod.dart';
-import 'package:flutter_sharez/features/update_app_version/controller/check_update_available.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
+import 'package:file_sharing/core/router/router.gr.dart';
+import 'package:file_sharing/core/router/router_pod.dart';
+import 'package:file_sharing/features/update_app_version/controller/check_update_available.dart';
+import 'package:file_sharing/l10n/l10n.dart';
 
 @RoutePage(
   deferredLoading: true,

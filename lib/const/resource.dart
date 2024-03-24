@@ -4,6 +4,6 @@
 class R {
   const R._();
 
-  /// ![preview](file://C:\Users\shree\Documents\GitHub\flutter_sharez\assets\anim\nointernet.riv)
+  /// ![preview](file://C:\Users\shree\Documents\GitHub\file_sharing\assets\anim\nointernet.riv)
   static const String ASSETS_ANIM_NOINTERNET_RIV = 'assets/anim/nointernet.riv';
 }

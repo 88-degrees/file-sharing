@@ -1,11 +1,11 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/router/router.gr.dart';
-import 'package:flutter_sharez/core/router/router_pod.dart';
-import 'package:flutter_sharez/features/update_app_version/controller/check_update_available.dart';
-import 'package:flutter_sharez/features/update_app_version/controller/check_update_version.dart';
-import 'package:flutter_sharez/features/update_app_version/view/widgets/animated_sync.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/asynvalue_easy_when.dart';
+import 'package:file_sharing/core/router/router.gr.dart';
+import 'package:file_sharing/core/router/router_pod.dart';
+import 'package:file_sharing/features/update_app_version/controller/check_update_available.dart';
+import 'package:file_sharing/features/update_app_version/controller/check_update_version.dart';
+import 'package:file_sharing/features/update_app_version/view/widgets/animated_sync.dart';
+import 'package:file_sharing/shared/riverpod_ext/asynvalue_easy_when.dart';
 
 class UpdateAppVersionIcon extends ConsumerWidget {
   const UpdateAppVersionIcon({super.key});

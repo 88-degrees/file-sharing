@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/theme/theme_controller.dart';
-import 'package:flutter_sharez/features/theme_segmented_btn/controller/selection_theme_pod.dart';
+import 'package:file_sharing/core/theme/theme_controller.dart';
+import 'package:file_sharing/features/theme_segmented_btn/controller/selection_theme_pod.dart';
 
 ///This class provider segmented button which can be used
 ///for getting current theme and switching theme

@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/router/router.gr.dart';
-import 'package:flutter_sharez/core/router/router_pod.dart';
-import 'package:flutter_sharez/data/model/sender_model.dart';
-import 'package:flutter_sharez/features/receive/controller/connect_pod.dart';
-import 'package:flutter_sharez/features/receive/state/connect_btn_state_pod.dart';
-import 'package:flutter_sharez/shared/helper/global_helper.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/asynvalue_easy_when.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/core/router/router.gr.dart';
+import 'package:file_sharing/core/router/router_pod.dart';
+import 'package:file_sharing/data/model/sender_model.dart';
+import 'package:file_sharing/features/receive/controller/connect_pod.dart';
+import 'package:file_sharing/features/receive/state/connect_btn_state_pod.dart';
+import 'package:file_sharing/shared/helper/global_helper.dart';
+import 'package:file_sharing/shared/riverpod_ext/asynvalue_easy_when.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 class ConnectBtn extends ConsumerStatefulWidget {
   final SenderModel senderModel;

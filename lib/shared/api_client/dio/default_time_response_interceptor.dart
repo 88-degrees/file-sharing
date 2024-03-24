@@ -2,7 +2,7 @@
 // coverage:ignore-file
 import 'package:dio/dio.dart';
 import 'package:duration/duration.dart';
-import 'package:flutter_sharez/bootstrap.dart';
+import 'package:file_sharing/bootstrap.dart';
 
 ///This Interceptor is used check the response time from the server for each request
 class TimeResponseInterceptor extends Interceptor {

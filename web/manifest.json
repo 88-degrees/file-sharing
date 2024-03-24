@@ -1,6 +1,6 @@
 {
-    "name": "flutter_sharez",
-    "short_name": "flutter_sharez",
+    "name": "file_sharing",
+    "short_name": "file_sharing",
     "start_url": ".",
     "display": "standalone",
     "background_color": "#0175C2",

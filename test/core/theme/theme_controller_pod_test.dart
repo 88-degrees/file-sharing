@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_sharez/core/local_storage/app_storage.dart';
-import 'package:flutter_sharez/core/local_storage/app_storage_pod.dart';
-import 'package:flutter_sharez/core/theme/theme_controller.dart';
+import 'package:file_sharing/core/local_storage/app_storage.dart';
+import 'package:file_sharing/core/local_storage/app_storage_pod.dart';
+import 'package:file_sharing/core/theme/theme_controller.dart';
 import 'package:riverpod_test/riverpod_test.dart';
 
 void main() {

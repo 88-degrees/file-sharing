@@ -1,10 +1,10 @@
 import 'dart:async';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/data/model/sender_model.dart';
-import 'package:flutter_sharez/data/service/receiver/receiver_service_pod.dart';
-import 'package:flutter_sharez/features/receive/state/connect_btn_state_pod.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/cancel_extensions.dart';
+import 'package:file_sharing/data/model/sender_model.dart';
+import 'package:file_sharing/data/service/receiver/receiver_service_pod.dart';
+import 'package:file_sharing/features/receive/state/connect_btn_state_pod.dart';
+import 'package:file_sharing/shared/riverpod_ext/cancel_extensions.dart';
 import 'package:network_discovery/network_discovery.dart';
 
 class ConnectBtnNotifier

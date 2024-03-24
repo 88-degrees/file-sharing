@@ -2,11 +2,11 @@ import 'package:dio/dio.dart';
 
 import 'package:flutter/foundation.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/bootstrap.dart';
-import 'package:flutter_sharez/shared/api_client/dio/bad_certificate_fixer.dart';
-import 'package:flutter_sharez/shared/api_client/dio/default_api_interceptor.dart';
-import 'package:flutter_sharez/shared/api_client/dio/default_time_response_interceptor.dart';
-import 'package:flutter_sharez/shared/api_client/dio/form_data_interceptor.dart';
+import 'package:file_sharing/bootstrap.dart';
+import 'package:file_sharing/shared/api_client/dio/bad_certificate_fixer.dart';
+import 'package:file_sharing/shared/api_client/dio/default_api_interceptor.dart';
+import 'package:file_sharing/shared/api_client/dio/default_time_response_interceptor.dart';
+import 'package:file_sharing/shared/api_client/dio/form_data_interceptor.dart';
 import 'package:talker_dio_logger/talker_dio_logger.dart';
 
 ///This provider dioClient with interceptors(TimeResponseInterceptor,FormDataInterceptor,TalkerDioLogger,DefaultAPIInterceptor)

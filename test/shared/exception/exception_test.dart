@@ -1,5 +1,5 @@
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_sharez/shared/exception/base_exception.dart';
+import 'package:file_sharing/shared/exception/base_exception.dart';
 
 void main() {
   group('APIException', () {

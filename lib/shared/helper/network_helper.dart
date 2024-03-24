@@ -1,7 +1,7 @@
 import 'dart:io';
 
-import 'package:flutter_sharez/bootstrap.dart';
-import 'package:flutter_sharez/shared/exception/base_exception.dart';
+import 'package:file_sharing/bootstrap.dart';
+import 'package:file_sharing/shared/exception/base_exception.dart';
 import 'package:multiple_result/multiple_result.dart';
 
 Future<Result<String, BaseException>> getDefaultAddress() async {

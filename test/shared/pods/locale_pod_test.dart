@@ -1,10 +1,10 @@
 import 'dart:ui';
 
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_sharez/core/local_storage/app_storage.dart';
-import 'package:flutter_sharez/core/local_storage/app_storage_pod.dart';
-import 'package:flutter_sharez/shared/exception/base_exception.dart';
-import 'package:flutter_sharez/shared/pods/locale_pod.dart';
+import 'package:file_sharing/core/local_storage/app_storage.dart';
+import 'package:file_sharing/core/local_storage/app_storage_pod.dart';
+import 'package:file_sharing/shared/exception/base_exception.dart';
+import 'package:file_sharing/shared/pods/locale_pod.dart';
 import 'package:riverpod_test/riverpod_test.dart';
 
 void main() {

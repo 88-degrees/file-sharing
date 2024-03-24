@@ -1,13 +1,13 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/bootstrap.dart';
-import 'package:flutter_sharez/core/router/router.gr.dart';
-import 'package:flutter_sharez/core/router/router_pod.dart';
-import 'package:flutter_sharez/features/settings/controller/current_version_pod.dart';
-import 'package:flutter_sharez/features/update_app_version/view/update_app_version_icon.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/asynvalue_easy_when.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/bootstrap.dart';
+import 'package:file_sharing/core/router/router.gr.dart';
+import 'package:file_sharing/core/router/router_pod.dart';
+import 'package:file_sharing/features/settings/controller/current_version_pod.dart';
+import 'package:file_sharing/features/update_app_version/view/update_app_version_icon.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/riverpod_ext/asynvalue_easy_when.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 class AboutAppTile extends StatelessWidget {
   const AboutAppTile({super.key});

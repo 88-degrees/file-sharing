@@ -1,14 +1,14 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/router/router.gr.dart';
-import 'package:flutter_sharez/features/receive/controller/receive_pods.dart';
-import 'package:flutter_sharez/features/receive/view/widget/connect_btn.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/asynvalue_easy_when.dart';
-import 'package:flutter_sharez/shared/widget/os_logo.dart';
+import 'package:file_sharing/core/router/router.gr.dart';
+import 'package:file_sharing/features/receive/controller/receive_pods.dart';
+import 'package:file_sharing/features/receive/view/widget/connect_btn.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/riverpod_ext/asynvalue_easy_when.dart';
+import 'package:file_sharing/shared/widget/os_logo.dart';
 import 'package:flutter_speed_dial/flutter_speed_dial.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 @RoutePage(
   deferredLoading: true,

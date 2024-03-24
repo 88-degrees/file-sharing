@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/router/router.dart';
+import 'package:file_sharing/core/router/router.dart';
 
 /// This global variable used for global working on ui elements where
 /// may be context is not present

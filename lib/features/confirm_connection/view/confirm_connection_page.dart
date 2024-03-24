@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sharez/data/model/receiver_model.dart';
-import 'package:flutter_sharez/shared/widget/os_logo.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/data/model/receiver_model.dart';
+import 'package:file_sharing/shared/widget/os_logo.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 @RoutePage(
   deferredLoading: true,

@@ -1,5 +1,5 @@
-import 'package:flutter_sharez/app/app.dart';
-import 'package:flutter_sharez/bootstrap.dart';
+import 'package:file_sharing/app/app.dart';
+import 'package:file_sharing/bootstrap.dart';
 
 /// This entry point should be used for staging only
 void main() {

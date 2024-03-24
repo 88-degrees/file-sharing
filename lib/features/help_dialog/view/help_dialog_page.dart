@@ -1,8 +1,8 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
+import 'package:file_sharing/l10n/l10n.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 @RoutePage(
   deferredLoading: true,
@@ -12,7 +12,7 @@ class HelpDialogPage extends StatelessWidget {
 
   void launchGithubissue() async {
     final uri =
-        Uri.parse('https://github.com/Shreemanarjun/flutter_sharez/issues');
+        Uri.parse('https://github.com/Shreemanarjun/file_sharing/issues');
     if (!await launchUrl(uri, mode: LaunchMode.externalApplication)) {
       throw Exception('Could not launch $uri');
     }

@@ -2,17 +2,17 @@ import 'dart:async';
 
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/data/model/server_info.dart';
-import 'package:flutter_sharez/features/file_selector/controller/selected_files_list_pod.dart';
-import 'package:flutter_sharez/features/send/view/widgets/action_dialog.dart';
-import 'package:flutter_sharez/features/send/view/widgets/files_bottomsheet.dart';
-import 'package:flutter_sharez/features/send/view/widgets/server_info_box.dart';
-import 'package:flutter_sharez/features/send/view/widgets/send_actions.dart';
-import 'package:flutter_sharez/features/send/view/widgets/share_on_web.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/helper/global_helper.dart';
+import 'package:file_sharing/data/model/server_info.dart';
+import 'package:file_sharing/features/file_selector/controller/selected_files_list_pod.dart';
+import 'package:file_sharing/features/send/view/widgets/action_dialog.dart';
+import 'package:file_sharing/features/send/view/widgets/files_bottomsheet.dart';
+import 'package:file_sharing/features/send/view/widgets/server_info_box.dart';
+import 'package:file_sharing/features/send/view/widgets/send_actions.dart';
+import 'package:file_sharing/features/send/view/widgets/share_on_web.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/helper/global_helper.dart';
 import 'package:qr_flutter/qr_flutter.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 class StartedServerView extends ConsumerStatefulWidget {
   final ServerInfo serverInfo;

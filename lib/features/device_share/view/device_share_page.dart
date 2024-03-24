@@ -1,9 +1,9 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sharez/core/router/router.gr.dart';
+import 'package:file_sharing/core/router/router.gr.dart';
 
-import 'package:flutter_sharez/data/model/sender_model.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/data/model/sender_model.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 @RoutePage(
   deferredLoading: true,

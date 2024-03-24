@@ -2,10 +2,10 @@ import 'package:auto_route/annotations.dart';
 import 'package:flutter/material.dart';
 
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/features/counter/controller/counter_state_pod.dart';
-import 'package:flutter_sharez/features/theme_segmented_btn/view/theme_segmented_btn.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/widget/app_locale_popup.dart';
+import 'package:file_sharing/features/counter/controller/counter_state_pod.dart';
+import 'package:file_sharing/features/theme_segmented_btn/view/theme_segmented_btn.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/widget/app_locale_popup.dart';
 
 @RoutePage(
   deferredLoading: true,

@@ -3,9 +3,9 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/widgets.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:hive_flutter/hive_flutter.dart';
-import 'package:flutter_sharez/core/local_storage/app_storage_pod.dart';
-import 'package:flutter_sharez/init.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/riverpod_observer.dart';
+import 'package:file_sharing/core/local_storage/app_storage_pod.dart';
+import 'package:file_sharing/init.dart';
+import 'package:file_sharing/shared/riverpod_ext/riverpod_observer.dart';
 import 'package:talker_flutter/talker_flutter.dart';
 
 // coverage:ignore-file
@@ -16,13 +16,13 @@ import 'package:talker_flutter/talker_flutter.dart';
 
 final talker = TalkerFlutter.init(
   settings: TalkerSettings(
-    maxHistoryItems: null,
+    maxHistoryItems: 1000,
     useConsoleLogs: !kReleaseMode,
     enabled: !kReleaseMode,
   ),
   logger: TalkerLogger(
     output: debugPrint,
-    settings: const TalkerLoggerSettings(),
+    settings: TalkerLoggerSettings(),
   ),
 );
 

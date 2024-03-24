@@ -3,15 +3,15 @@ import 'package:flex_color_scheme/flex_color_scheme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/core/router/auto_route_observer.dart';
-import 'package:flutter_sharez/core/router/router_pod.dart';
-import 'package:flutter_sharez/core/theme/app_theme.dart';
-import 'package:flutter_sharez/core/theme/theme_controller.dart';
-import 'package:flutter_sharez/l10n/l10n.dart';
-import 'package:flutter_sharez/shared/helper/global_helper.dart';
-import 'package:flutter_sharez/shared/pods/locale_pod.dart';
-import 'package:flutter_sharez/shared/widget/no_internet_widget.dart';
-import 'package:flutter_sharez/shared/widget/responsive_wrapper.dart';
+import 'package:file_sharing/core/router/auto_route_observer.dart';
+import 'package:file_sharing/core/router/router_pod.dart';
+import 'package:file_sharing/core/theme/app_theme.dart';
+import 'package:file_sharing/core/theme/theme_controller.dart';
+import 'package:file_sharing/l10n/l10n.dart';
+import 'package:file_sharing/shared/helper/global_helper.dart';
+import 'package:file_sharing/shared/pods/locale_pod.dart';
+import 'package:file_sharing/shared/widget/no_internet_widget.dart';
+import 'package:file_sharing/shared/widget/responsive_wrapper.dart';
 
 ///This class holds Material App or Cupertino App
 ///with routing,theming and locale setup .

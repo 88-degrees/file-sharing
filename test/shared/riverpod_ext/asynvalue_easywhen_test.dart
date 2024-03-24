@@ -2,7 +2,7 @@ import 'package:dio/dio.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/asynvalue_easy_when.dart';
+import 'package:file_sharing/shared/riverpod_ext/asynvalue_easy_when.dart';
 
 import '../../helpers/pump_app.dart';
 

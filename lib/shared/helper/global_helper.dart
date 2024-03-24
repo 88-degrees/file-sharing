@@ -5,8 +5,8 @@ import 'package:flash/flash.dart';
 import 'package:flash/flash_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
-import 'package:flutter_sharez/bootstrap.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/bootstrap.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 ///This mixin used for showing dialogs,overlay,bootomsheet,snackbars which automatically disposed
 ///when the stateful class use this class disposes.s

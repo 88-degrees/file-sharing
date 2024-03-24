@@ -1,7 +1,7 @@
 import 'package:auto_route/auto_route.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_sharez/core/router/router.gr.dart';
-import 'package:flutter_sharez/shared/widget/custom_app_bar.dart';
+import 'package:file_sharing/core/router/router.gr.dart';
+import 'package:file_sharing/shared/widget/custom_app_bar.dart';
 
 @RoutePage(
   deferredLoading: true,

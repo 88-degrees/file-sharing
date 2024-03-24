@@ -2,11 +2,11 @@ import 'package:duration/duration.dart';
 import 'package:file_sizes/file_sizes.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:flutter_sharez/data/model/file_paths_model.dart';
-import 'package:flutter_sharez/features/file_download_btn/controller/file_download_pod.dart';
-import 'package:flutter_sharez/features/file_download_btn/state/file_download_state.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/asynvalue_easy_when.dart';
-import 'package:velocity_x/velocity_x.dart';
+import 'package:file_sharing/data/model/file_paths_model.dart';
+import 'package:file_sharing/features/file_download_btn/controller/file_download_pod.dart';
+import 'package:file_sharing/features/file_download_btn/state/file_download_state.dart';
+import 'package:file_sharing/shared/riverpod_ext/asynvalue_easy_when.dart';
+import 'package:file_sharing/velocity_x/velocity_x.dart';
 
 class FileDownloadBtn extends ConsumerStatefulWidget {
   final FilePath filepath;

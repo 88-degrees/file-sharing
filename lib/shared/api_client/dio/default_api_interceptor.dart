@@ -1,5 +1,5 @@
 import 'package:dio/dio.dart';
-import 'package:flutter_sharez/shared/api_client/dio/default_api_error_handler.dart';
+import 'package:file_sharing/shared/api_client/dio/default_api_error_handler.dart';
 
 // coverage:ignore-file
 

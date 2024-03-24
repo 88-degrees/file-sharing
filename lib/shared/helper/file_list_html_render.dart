@@ -1,6 +1,6 @@
 import 'package:file_picker/file_picker.dart';
 import 'package:file_sizes/file_sizes.dart';
-import 'package:flutter_sharez/data/model/server_info.dart';
+import 'package:file_sharing/data/model/server_info.dart';
 
 String htmlFiles(
     {required List<PlatformFile> files, required ServerInfo serverInfo}) {

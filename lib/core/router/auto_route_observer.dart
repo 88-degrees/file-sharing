@@ -3,7 +3,7 @@
 import 'package:auto_route/auto_route.dart';
 
 import 'package:flutter/material.dart';
-import 'package:flutter_sharez/bootstrap.dart';
+import 'package:file_sharing/bootstrap.dart';
 
 /// This class observers all events happening in routing/navigation
 class RouterObserver extends AutoRouterObserver {

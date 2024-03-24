@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:flutter_sharez/shared/riverpod_ext/cache_extensions.dart';
+import 'package:file_sharing/shared/riverpod_ext/cache_extensions.dart';
 
 final cacheStateProvider = StateProvider.autoDispose<int>((ref) {
   ref.cacheFor(const Duration(seconds: 3));

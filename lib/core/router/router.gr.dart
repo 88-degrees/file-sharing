@@ -10,42 +10,42 @@
 // ignore_for_file: no_leading_underscores_for_library_prefixes
 import 'package:auto_route/auto_route.dart' as _i18;
 import 'package:flutter/material.dart' as _i19;
-import 'package:flutter_sharez/data/model/receiver_model.dart' as _i21;
-import 'package:flutter_sharez/data/model/sender_model.dart' as _i22;
-import 'package:flutter_sharez/data/model/update_model.dart' as _i20;
-import 'package:flutter_sharez/features/confirm_connection/view/confirm_connection_page.dart'
+import 'package:file_sharing/data/model/receiver_model.dart' as _i21;
+import 'package:file_sharing/data/model/sender_model.dart' as _i22;
+import 'package:file_sharing/data/model/update_model.dart' as _i20;
+import 'package:file_sharing/features/confirm_connection/view/confirm_connection_page.dart'
     deferred as _i2;
-import 'package:flutter_sharez/features/counter/view/counter_page.dart'
+import 'package:file_sharing/features/counter/view/counter_page.dart'
     deferred as _i3;
-import 'package:flutter_sharez/features/device_share/view/device_share_page.dart'
+import 'package:file_sharing/features/device_share/view/device_share_page.dart'
     deferred as _i5;
-import 'package:flutter_sharez/features/device_share/view/tabs/device_info_tab_page.dart'
+import 'package:file_sharing/features/device_share/view/tabs/device_info_tab_page.dart'
     deferred as _i4;
-import 'package:flutter_sharez/features/device_share/view/tabs/sender_files_tab_page.dart'
+import 'package:file_sharing/features/device_share/view/tabs/sender_files_tab_page.dart'
     deferred as _i16;
-import 'package:flutter_sharez/features/downloads/view/downloads_page.dart'
+import 'package:file_sharing/features/downloads/view/downloads_page.dart'
     deferred as _i6;
-import 'package:flutter_sharez/features/file_selector/view/file_selector_page.dart'
+import 'package:file_sharing/features/file_selector/view/file_selector_page.dart'
     deferred as _i7;
-import 'package:flutter_sharez/features/help_dialog/view/help_dialog_page.dart'
+import 'package:file_sharing/features/help_dialog/view/help_dialog_page.dart'
     deferred as _i8;
-import 'package:flutter_sharez/features/home/view/home_page.dart'
+import 'package:file_sharing/features/home/view/home_page.dart'
     deferred as _i9;
-import 'package:flutter_sharez/features/manual_connect/view/manual_connect_page.dart'
+import 'package:file_sharing/features/manual_connect/view/manual_connect_page.dart'
     deferred as _i10;
-import 'package:flutter_sharez/features/qr_scan/qr_scan_page.dart'
+import 'package:file_sharing/features/qr_scan/qr_scan_page.dart'
     deferred as _i11;
-import 'package:flutter_sharez/features/receive/view/receive_page.dart'
+import 'package:file_sharing/features/receive/view/receive_page.dart'
     deferred as _i12;
-import 'package:flutter_sharez/features/receive/view/receive_state_page.dart'
+import 'package:file_sharing/features/receive/view/receive_state_page.dart'
     deferred as _i13;
-import 'package:flutter_sharez/features/send/view/send_page.dart'
+import 'package:file_sharing/features/send/view/send_page.dart'
     deferred as _i14;
-import 'package:flutter_sharez/features/send/view/send_state_page.dart'
+import 'package:file_sharing/features/send/view/send_state_page.dart'
     deferred as _i15;
-import 'package:flutter_sharez/features/settings/view/settings_page.dart'
+import 'package:file_sharing/features/settings/view/settings_page.dart'
     deferred as _i17;
-import 'package:flutter_sharez/features/update_app_version/view/changelog_page.dart'
+import 'package:file_sharing/features/update_app_version/view/changelog_page.dart'
     deferred as _i1;
 
 abstract class $AppRouter extends _i18.RootStackRouter {
